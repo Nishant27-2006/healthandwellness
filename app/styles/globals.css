@@ -1,0 +1,128 @@
+/* Global reset and basic setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #D9F99D, #93C5FD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header styles */
+  .header {
+    margin-bottom: 40px;
+  }
+  
+  h1.title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #1E40AF;
+    margin-bottom: 16px;
+  }
+  
+  p.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto 24px auto;
+  }
+  
+  /* Placeholder box for chat interface */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .calculators-container {
+    width: 100%;
+  }
+  
+  .calculator-section {
+    margin: 20px 0;
+  }
+  
+  .placeholder-box {
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .placeholder-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .calculator-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  /* Input styles */
+  .input-group {
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .calculate-button {
+    background-color: #1E40AF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #1E3A8A;
+  }
+  
+  /* Result and feedback styles */
+  .result-text {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .feedback-text {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #888;
+  }
+  
